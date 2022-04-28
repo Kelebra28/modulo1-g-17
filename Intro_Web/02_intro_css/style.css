@@ -1,0 +1,38 @@
+
+/* selector de etiqueta */
+
+body {
+    background-color: #256976;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+img {
+    /* height: 300px; */
+    width: 300px;
+}
+
+a {
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+/* selector de tipo clase */
+
+.rojo {
+    color: red;
+}
+
+
+#especial {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    font-size: 20px;
+    font-weight: lighter;
+}
