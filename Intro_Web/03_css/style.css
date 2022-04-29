@@ -1,0 +1,88 @@
+#banner{
+    background-color: palevioletred;
+    width: 50%;
+    height: 300px;
+}
+
+#banner .content {
+    background-color: aqua;
+
+}
+
+nav{
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav li{
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px;
+} */
+
+.li1{
+    background-color: aqua;
+    display: inline-block;
+    font-size: 9px;
+    padding: 10px;
+    margin: 25px;
+}
+
+.li2{
+    background-color: rgb(41, 94, 94);
+    display: inline-block;
+    font-size: 15px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.li3{
+    background-color: rgb(11, 12, 43);
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+a{
+    float:right;
+    text-decoration: none;
+}
+
+#home{
+    background-color:tomato ;
+    padding: 50px 100px;
+    border: 5px solid black ;
+    margin: 10px 50px 100px 200px;
+}
+
+#dog{
+    background-color:chocolate ;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    border: 10px dotted burlywood ;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    /* margin: 10px 50px 100px 200px; */
+}
+#cat{
+    background-image: url("img/perritos.jpeg");
+}
+
+#horse{
+    background: black;
+    border: 1px solid;
+    color: aliceblue;
+    display: inline;
+}
