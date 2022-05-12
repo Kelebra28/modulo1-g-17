@@ -1,0 +1,84 @@
+.padre{
+    background-color: aqua;
+    height: 500px;
+    width: 80%;
+}
+
+.hijo1{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+.hijo2{
+    background-color: red;
+    height: 350px;
+    width: 350px;
+    float: right;
+}
+.hijo3{
+    background-color: blue;
+    height: 450px;
+    width: 450px;
+    clear: both;
+}
+.hijo4{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    clear: both;
+}
+
+
+.anakin{
+    background-color: rgb(103, 155, 233);
+    height: 700px;
+    width: 100%;
+}
+
+.luk1{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    position: static;
+    top: 40px;
+    left: 10px;
+
+}
+.luk2{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+
+}
+.luk3{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+
+}
+.luk4{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 26px;
+    bottom: 25px;
+
+}
+
+.luk5{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    left: 26px;
+    bottom: 250px;
+
+}
