@@ -23,7 +23,7 @@ nav{
 }
 
 .boobafet{
-    background-image: url("./img/wallpaper.jpg");
+    background-image: url('./img/wallpaper.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
