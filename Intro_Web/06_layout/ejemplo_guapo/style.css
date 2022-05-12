@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(195, 195, 195);
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    overflow: hidden;
+    background-color: black;
+}
+.barra-nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
