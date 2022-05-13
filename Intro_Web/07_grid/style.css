@@ -6,7 +6,10 @@ body{
 .grid-container{
     margin: 15px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    /* Utilizando unidad auto */
+             /* grid-template-columns: auto auto auto; */
+    /* Utilizando unidad fr */
+    grid-template-columns: 3fr 2fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
     padding: 20px;
@@ -20,4 +23,42 @@ body{
     font-size: 30px;
     text-align: center;
     color: #F2F3D9;
+}
+
+.grid-container-2{
+    margin: 15px;
+    display: grid;
+    height: 500px;
+    grid-template-columns: 3fr 3fr 3fr;
+    /* Mismo espacio entre filas y columnas  */
+        /* gap: 10px; */
+    /* Espacio entre filas */
+    row-gap: 20px;
+        /* o se puede usar grid-row-gap */
+    /* Espacio entre columna */
+    column-gap: 25px;
+        /* o se puede usar grid-colum-gap */
+    padding: 20px;
+    background-color: #b392ac;
+    /* Justifica el contenido de nuestro container (items) */
+            /* izquierda */
+        /* justify-items: start; */
+            /* derecha */
+        justify-items: end;
+            /* centro */
+        /* justify-items: center; */
+            /* Stretch */
+        /* justify-items: stretch; */
+    /* Alinea el contenidode conteiner (vertical) */
+        /* arriba */
+        align-items: flex-start;
+}
+
+.grid-item-2{
+    background-color: #D1B3C4;
+    border: 2px solid #735D78;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
 }
