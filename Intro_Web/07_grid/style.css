@@ -87,11 +87,11 @@ body{
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 4;
     /* Justificamos el contenido */
         /* justify-self: end; */
     /* Alineamos el contentenido */
         /* align-self: flex-end; */
     /* Justificamos y alineamos en la misma code line */
-    place-self: center center;
+    place-self: start center;
 }
