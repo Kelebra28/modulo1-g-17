@@ -44,14 +44,18 @@ body{
             /* izquierda */
         /* justify-items: start; */
             /* derecha */
-        justify-items: end;
+        /* justify-items: end; */
             /* centro */
         /* justify-items: center; */
             /* Stretch */
         /* justify-items: stretch; */
     /* Alinea el contenidode conteiner (vertical) */
         /* arriba */
-        align-items: flex-start;
+        /* align-items: flex-start; */
+        /* para que chequen align https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_align-items&preval=baseline */
+    /* Alinea y justifica en la misma linea de codigo */
+    place-content: center center;
+    /* para que chequen su documentacion https://developer.mozilla.org/en-US/docs/Web/CSS/place-content */
 }
 
 .grid-item-2{
@@ -61,4 +65,33 @@ body{
     font-size: 30px;
     text-align: center;
     color: #ffffff;
+}
+
+.grid-container-3{
+    margin: 15px;
+    display: grid;
+    height: 300px;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-template-rows: auto auto auto;
+    /* padding: 20px; */
+    background-color: #f4a261;
+}
+
+.grid-item-3{
+    /* background-color: #e9c46a;
+    border: 2px solid #2a9d8f; */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #e76f51;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* Justificamos el contenido */
+        /* justify-self: end; */
+    /* Alineamos el contentenido */
+        /* align-self: flex-end; */
+    /* Justificamos y alineamos en la misma code line */
+    place-self: center center;
 }
