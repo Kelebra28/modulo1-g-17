@@ -1,0 +1,16 @@
+.darth-maul{
+    margin: 20px 0;
+    background-color: blueviolet;
+    border-color: black;
+    border: 2px black solid;
+}
+
+.anakin{
+    margin: 20px 0;
+    background-color: pink ;
+    border: 2px black solid;
+}
+
+.col{
+    border: 2px white solid;
+}
